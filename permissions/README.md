@@ -4,4 +4,4 @@
 3-new_owner ; change owner of file hello to Betty
 4-empty ; make new empty file "hello"
 5-execute ; sets file "hello" permissions to 744
-
+6-multiple_permissions ; sets file "hello" permissions to 774
