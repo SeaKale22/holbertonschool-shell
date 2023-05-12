@@ -5,5 +5,6 @@
 4-empty ; make new empty file "hello"
 5-execute ; sets file "hello" permissions to 744
 6-multiple_permissions ; sets file "hello" permissions to 754
-7-everybody ; sets file "hello" permissions to 751
+7-everybody ; adds ugo+x to file "hello"
+8-James_Bons ; sets file "hello" permissions to 007
 
