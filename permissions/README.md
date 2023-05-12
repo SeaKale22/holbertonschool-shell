@@ -7,4 +7,5 @@
 6-multiple_permissions ; sets file "hello" permissions to 754
 7-everybody ; adds ugo+x to file "hello"
 8-James_Bons ; sets file "hello" permissions to 007
+9-John_Doe ; sets file "hello" permissions to 753
 
