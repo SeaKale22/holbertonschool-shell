@@ -9,3 +9,5 @@
 8-James_Bons ; sets file "hello" permissions to 007
 9-John_Doe ; sets file "hello" permissions to 753
 10-mirror_permissions ; sets file "hello" permissions same as "olleh"
+11-directories_permissions ; adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
+12-directory_permissions ; creates directory my_dir with 751 permissions
