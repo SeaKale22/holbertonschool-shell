@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#
+h=0
+m=1
+while [ $h -le 12 ]
+do
+	case "$m" in
+		"1") echo "Hour: $h"
+	esac
+	if [ $m -le 59 ]
+	then
+		echo $m
+		m=$((m+1))
+	else 
+		m=1
+	fi
+	case "$m" in
+		"59")  h=$((h+1))
+	esac
+done
+
