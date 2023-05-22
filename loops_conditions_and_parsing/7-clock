@@ -1,21 +1,15 @@
 #!/usr/bin/env bash
-#
+#ticktock
 h=0
 m=1
 while [ $h -lt 13 ]
 do
-	case "$m" in
-		"1") echo "Hour: $h"
-	esac
-	if [ $m -lt 60 ]
-	then
+	echo "Hour: $h"
+	while [ $m -lt 60 ]
+	do
 		echo $m
 		m=$((m+1))
-	else 
-		m=1
-	fi
-	case "$m" in
-		"59")  h=$((h+1))
-	esac
+	done
+	m=1
+	h=$((h+1))
 done
-
