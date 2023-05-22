@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-
-file_path="path/to/school/file.txt"  # Replace with the actual path to the school file
+#schoolfile
+file_path="path/to/school/file.txt"
 
 if [ -e "$file_path" ]; then
 	  echo "School file exists"
