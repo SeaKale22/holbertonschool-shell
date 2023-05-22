@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+file_path="path/to/school/file.txt"  # Replace with the actual path to the school file
+
+if [ -e "$file_path" ]; then
+	  echo "School file exists"
+	  
+	    if [ -s "$file_path" ]; then
+		        echo "School file is not empty"
+			  else
+				      echo "School file is empty"
+				        fi
+					
+					  if [ -f "$file_path" ]; then
+						      echo "School is a regular file"
+						        fi
+							
+							else
+								  echo "School file does not exist"
+								  fi 
