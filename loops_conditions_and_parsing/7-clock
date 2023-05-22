@@ -2,12 +2,12 @@
 #
 h=0
 m=1
-while [ $h -le 12 ]
+while [ $h -lt 13 ]
 do
 	case "$m" in
 		"1") echo "Hour: $h"
 	esac
-	if [ $m -le 59 ]
+	if [ $m -lt 60 ]
 	then
 		echo $m
 		m=$((m+1))
