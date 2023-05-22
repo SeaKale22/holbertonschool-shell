@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Pint 'Best School' 10 times, say 'Hi' after 9th
 i=0
-while [ $! -le 10 ]
+while [ $i -lt 10 ]
 do 
 	echo 'Best School'
 	i=$((i+1))
